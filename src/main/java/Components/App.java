@@ -37,7 +37,7 @@ public class App extends ComponentDefinition {
     }
 
     public void readTable(){
-        File resourceFile = new File("src/main/java/result.txt");
+        File resourceFile = new File("src/main/java/mst.txt");
         try (Scanner scanner = new Scanner(resourceFile)) {
 
             while (scanner.hasNext()) {
